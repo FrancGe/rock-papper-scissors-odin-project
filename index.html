@@ -4,11 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Rock Papper Scissors | The Odin Project</title>
 </head>
 
 <body>
+    <header>
+        <h1>Bienvenido al juego: Piedras Papel o Tijeras!</h1>
+        <p>El juego consta de 5 rondas donde competiras contra la PC</p>
+        <p>Tu eres el color rojo y la PC es el color azul</p>
+        <p>Pasadas las 5 rondas, aquel que tenga mas puntos sera el ganador</p>
+    </header>
 
+
+    <div class="botones">
+        <button class="piedra">Piedra!</button>
+        <button class="papel">Papel!</button>
+        <button class="tijera">Tijera!</button>
+    </div>
+
+    <div class="mensajes">
+        <div id="persona">Humano</div>
+        <div id="pc">PC</div>
+        <div id="vs">Resultado</div>
+
+        <div id="marcador"></div>
+        <div id="ganador"></div>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
